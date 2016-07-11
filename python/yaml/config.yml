@@ -1,0 +1,12 @@
+config:
+  distro: ccos
+  modules:
+    - name: horizon
+      upstream:
+        repo: https://github.com/openstack/horizon.git
+        branch: stable/mitaka
+    - name: zabbix
+      upstream:
+        repo: https://github.com/zabbix/zabbix.git
+        branch: 2.5.0
+    - name: portal
