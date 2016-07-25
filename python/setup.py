@@ -7,20 +7,21 @@ from setuptools import setup
 long_desc = """Programming Exercise for Python is a collection of sample code
 for demostration of concept and usage of Python Language."""
 
-setup(name='PROJECT-ID',
+setup(name='pysperm',
       version='0.0.1',
-      packages=['PROJECT-ID', 'PROJECT-ID.lib'],
+      packages=['pysperm',],
       entry_points={'console_scripts': [
-          'PROJECT-ID = PROJECT-ID.__main__:main',
+          'pysperm = pysperm.__main__:main',
       ]},
       author='Jim Lin',
       author_email='jimlintw922@gmail.com',
-      url='https://github.com/jinsenglin/PROJECT-ID/',
+      url='https://github.com/jinsenglin/pysperm/',
       description='Programming Exercise for Python',
       long_description=long_desc,
       license="Apache 2.0",
       classifiers=[
-          'Programming Language :: Python :: PROJECT-PYTHON-VERSION'
+          'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3.5',
       ],
       install_requires=[]
       )
