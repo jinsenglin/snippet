@@ -1,0 +1,6 @@
+dn: cn=cclin,ou=users,ou=system
+cn: cclin
+sn: cclin
+objectclass: top
+objectclass: person
+userPassword: cclin
